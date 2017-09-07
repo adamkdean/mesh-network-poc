@@ -1,0 +1,11 @@
+{
+  "name": "mesh-network-node",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Adam K Dean",
+  "license": "ISC"
+}
