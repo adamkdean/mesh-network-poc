@@ -43,3 +43,12 @@ docker run \
   --network test-network \
   --env PORT=12000 \
   mesh-network-server
+  
+echo "[running test-client.somenetwork.com]"
+docker run \
+  --detach \
+  --name test-client.somenetwork.com \
+  --hostname test-client.somenetwork.com \
+  --network test-network \
+  --env PORT=12000 \
+  mesh-network-server
